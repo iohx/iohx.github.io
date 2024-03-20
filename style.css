@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "futura-pt", sans-serif;
+    z-index: 0
+}
+nav img{
+    width: 90px;
+    float: right;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul li{
+    list-style: none;
+    padding: 2px;
+}
+.nav-links ul li a{
+    color: #572718;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links ul li a:hover{
+    font-style: italic;
+    color: #EBC528;  
+}
+
+
+
+.home{
+    min-height: 150vh;
+    width: 100%;
+    background-image: url(background.png);
+}
+.welcome{
+    width: 60%;
+    padding-top: 5%;
+    resize: none;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+.welcome h1{
+    font-size: 150px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    margin-left: 100px;
+    color: #EBC528;
+    font-style: normal;
+}
+.welcome p{
+    flex: auto;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+.blogpost img{
+    width: 230px;
+    margin-left: 480px;
+    margin-top: 350px;
+    position: absolute;
+}
+.blogpost img:hover{
+    width: 230px;
+    margin-left: 480px;
+    margin-top: 350px;
+    position: absolute;
+    transform: scale(1.5);
+}
+.learnmore img{
+    width: 230px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 500px;
+}
+.learnmore img:hover{
+    width: 230px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 500px;
+    transform: scale(1.5);
+}
+.socials img{
+    width: 230px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 350px;
+}
+.socials img:hover{
+    width: 230px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 350px;
+    transform: scale(1.5);
+}
+.msohetsy img{
+    width: 230px;
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 720px;
+}
+.msohetsy img:hover{
+    width: 230px;
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 720px;
+    transform: scale(1.5);
+}
+.shopmsoh img{
+    width: 230px;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 700px;
+}
+.shopmsoh img:hover{
+    width: 230px;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 700px;
+    transform: scale(1.5);
+}
+
+
+.header{
+    min-height: 450vh;
+    width: 100%;
+    background-image: url(background.png);
+}
+.text-box{
+    width: 60%;
+    padding-top: 5%;
+    resize: none;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+.text-box h1{
+    font-size: 150px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    margin-left: 100px;
+    color: #EBC528;
+    font-style:normal;
+}
+.text-box p{
+    flex: auto;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+.email{
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.email-button{
+    flex:auto;
+    display: inline-block;
+    text-decoration: none;
+    color: #572718;
+    border: 2px solid #572718;
+    border-radius: 5px;
+    padding: 8px 35px;
+    font-size: 15px;
+    font-family: "futura-pt", sans-serif;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    float: right;
+    transform:rotate(90deg);
+}
+.email-button:hover{
+    display: inline-block;
+    text-decoration: none;
+    background: #81A4AB;
+    color: #fff;
+}
+.brandimage{
+    flex: auto;
+    width:500px;
+    margin-right: 100px;
+    float: right;
+}   
+.brandimage img{
+    width: 500px;
+    position: static;
+}
+.arrow img{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 340px;
+    width: 220px;
+    float:left;   
+}
+.getting-inspired{
+    position: absolute;
+    width: 60%;
+    float: right;
+    resize: none;
+    left: 40%;
+}
+.getting-inspired h1{
+    font-size: 45px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    color: #81A4AB;
+    font-style: normal;
+    float:right;
+    margin-right: 300px;
+    margin-top: 500px;
+}
+.getting-inspired p{
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: right;
+    margin-right: 300px;
+    margin-top: 575px;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+.colorimages1{
+    flex: auto;
+    width:750px;
+    object-fit: cover;
+}
+.colorimages1 img{
+    width: 250px;
+    margin-top: 730px;
+    float: left;
+    position: static;
+    border: 3px solid #572718;
+    margin-left: 250px;
+}
+.colorimages2{
+    flex: auto;
+    width:750px;
+    margin-left: 80px;
+    object-fit: cover;
+}
+.colorimages2 img{
+    width: 150px;
+    margin-top: 780px;
+    border: 3px solid #572718;
+    transform:rotate(15deg);
+    position: static;
+}
+.colorpalette{
+    margin-right: 300px;
+}
+.colorpalette img{
+    width: 350px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 80px;
+}
+.sketches{
+    position: absolute;
+    width: 80%;
+    margin-top: 120px;
+    float: right;
+    resize: none;
+    left: 20%;
+}
+.sketches h1{
+    font-size: 45px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    margin-top: 50px;
+    color: #81A4AB;
+    font-style: normal;
+    text-align: center;
+    margin-right: 300px;
+}
+.sketches p{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 300px;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+.lineupsketch{
+    flex:auto;
+}
+.lineupsketch img{
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 140px;
+}
+.startcreating{
+    width: 80%;
+    resize: none;
+    position: absolute;
+    left: 7%;
+}
+.startcreating h1{
+    font-size: 45px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    margin-left: 100px;
+    color: #81A4AB;
+    font-style: normal;
+}
+.startcreating p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+ul > li{
+    margin-left: 50px;
+}
+.steps{
+    font-size: 20px; 
+    color: #572718;
+    float: left;
+    font-family: "futura-pt", sans-serif;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: absolute;
+    width: 40%;
+}
+.materials{
+    float:right;
+}
+.materials img{
+    width: 40%;
+    float: right;
+    position: static;
+}
+.finishingup h1{
+    font-size: 45px;
+    margin-top: 900px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    text-align: center;
+    color: #81A4AB;
+    font-style: normal;
+}
+.finishingup p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px; 
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+.msohtable{
+    margin-left: 300px;
+}
+.msohinstagramgrid{
+    position: relative;
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "rokkitt", serif;
+    font-weight: 300;
+    color: #81A4AB;
+    font-style: normal;
+}
+.msohinstagramgrid a{
+    text-decoration: none;
+    color: #81A4AB;
+}
+.msohinstagramgrid a:hover{
+    text-decoration: none;
+    font-style: italic;
+    color: #EBC528; 
+}
+.msohtable td img{
+    width: 300px;
+    border: 3px solid #572718;
+    margin: 30px;
+}
+.msohtable td img:hover{
+    width: 300px;
+    border: 3px solid #EBC528;
+    margin: 30px;
+}
+.thankyou h1{
+    font-size: 45px;
+    margin-top: 100px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    text-align: center;
+    color: #81A4AB;
+    font-style: normal;
+}
+.thankyou p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 120px;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+}
+
+
+
+
+
+.aboutmeheader{
+    min-height: 170vh;
+    width: 100%;
+    background-image: url(background.png);
+}
+.about h1{
+    font-size:150px;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    margin-left: 100px;
+    color: #81A4AB;
+    font-style: normal;
+    margin-left: 200px;
+}
+.about p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+    width: 40%;
+    position: absolute;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+    margin-left: 200px;
+}
+.journey{
+    width: 100%;
+}
+.journey img{
+    width: 800px;
+    margin-left: 750px;
+    position: absolute;
+}
+.profilepicture img{
+    width: 350px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+    border: solid 3px #572718;
+}
+.necklace img{
+    width: 350px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 250px;
+}
+.favrestaurants h1{
+    margin-bottom: 20px;
+}
+.favrestaurants{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+    width: 40%;
+    color: #572718;
+    font-family: "futura-pt", sans-serif;
+    margin-left: 200px;
+    margin-top: 700px;
+}
+
+
+
+
+
+
+.contactheader{
+    min-height: 90vh;
+    width: 100%;
+    background-image: url(background.png);
+}
+.contactme{
+    width: 50%;
+}
+.contactme h1{
+    font-size:150px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: "rokkitt", serif;
+    font-weight: 800;
+    line-height: 110px;
+    margin-left: 100px;
+    color: #81A4AB;
+    font-style: normal;
+    margin-left: 200px;
+}
+.emailicon{
+    position: absolute;
+    float: right;
+    width: 100%;
+    z-index: 6;
+}
+.emailicon img{
+    width: 150px;
+    float: right;
+    margin-right: 450px;
+}
+.emailicon img:hover{
+    width: 150px;
+    float: right;
+    margin-right: 450px;
+    transform: scale(1.5);
+}
+.linkedinicon{
+    position: absolute;
+    float: right;
+    z-index: 4;
+    width: 100%;
+}
+.linkedinicon img{
+    width: 150px;
+    float: right;
+    z-index:4;
+    margin-top: 180px;
+    margin-right: 250px;
+}
+.linkedinicon img:hover{
+    width: 150px;
+    float: right;
+    z-index:4;
+    margin-top: 180px;
+    margin-right: 250px;
+    transform: scale(1.5);
+}
+.instagramicon{
+    position: absolute;
+    float: right;
+    z-index: 2;
+    width: 100%;
+}
+.instagramicon img{
+    width: 150px;
+    float: right;
+    margin-top: 320px;
+    z-index: 2;
+    margin-right: 550px;
+}
+.instagramicon img:hover{
+    width: 150px;
+    float: right;
+    margin-top: 320px;
+    z-index: 2;
+    margin-right: 550px;
+    transform: scale(1.5);
+}
+
+
+
+
+#footer{
+    width: 100%;
+    background-color: #572718;
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+#footer p{
+    font-size: 15px;
+    font-family: "rokkitt", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #EEECDE;
+    opacity: 40%;
+    padding-top: 50px;
+}
