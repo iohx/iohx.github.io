@@ -129,7 +129,7 @@ nav img{
 
 
 .header{
-    min-height: 450vh;
+    min-height: 530vh;
     width: 100%;
     background-image: url(background.png);
 }
@@ -452,7 +452,6 @@ ul > li{
     color: #572718;
     font-family: "futura-pt", sans-serif;
 }
-
 
 
 
